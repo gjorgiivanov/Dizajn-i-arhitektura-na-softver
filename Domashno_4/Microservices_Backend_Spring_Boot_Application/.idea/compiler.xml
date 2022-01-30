@@ -13,10 +13,10 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="city" target="17" />
+      <module name="city" target="1.8" />
       <module name="drink_place" target="17" />
       <module name="food_place" target="17" />
-      <module name="microservices_application" target="17" />
+      <module name="microservices_application" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
