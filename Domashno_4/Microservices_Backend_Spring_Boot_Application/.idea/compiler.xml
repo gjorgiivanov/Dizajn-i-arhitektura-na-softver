@@ -7,15 +7,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="drink_place" />
         <module name="food_place" />
         <module name="city" />
-        <module name="drink_place" />
+        <module name="eureka-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="city" target="1.8" />
-      <module name="drink_place" target="17" />
-      <module name="food_place" target="17" />
+      <module name="drink_place" target="1.8" />
+      <module name="eureka-server" target="1.8" />
+      <module name="food_place" target="1.8" />
       <module name="microservices_application" target="1.8" />
     </bytecodeTargetLevel>
   </component>
